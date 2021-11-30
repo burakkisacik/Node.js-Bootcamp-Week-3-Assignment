@@ -6,7 +6,7 @@ const blogPosts = require("./routes/blogPosts");
 
 const app = express();
 
-// Mount routers
+// Mount routes
 app.use("/api/v1/blogPosts", blogPosts);
 
 const PORT = 3000;
