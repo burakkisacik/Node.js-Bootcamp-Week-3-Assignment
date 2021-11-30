@@ -1,0 +1,29 @@
+{
+  "name": "week-3-assignment-burak-kisacik",
+  "version": "1.0.0",
+  "description": "HTTP server with express",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write ./src/**/*.js",
+    "lint": "eslint ./src/**/*.js",
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "http",
+    "express"
+  ],
+  "author": "Burak Kısacık",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
