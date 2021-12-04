@@ -8,14 +8,16 @@ const {
   deleteBlogPost,
 } = require("../controllers/blogPosts");
 
+const verifyToken = require("../middlewares/verifyToken");
+
 const router = express.Router();
 
-router.route("/").get(getBlogPosts).post(createBlogPost);
+router.route("/").get(getBlogPosts).post(verifyToken, createBlogPost);
 
 router
   .route("/:id")
   .get(getBlogPost)
-  .put(updateBlogPost)
-  .delete(deleteBlogPost);
+  .patch(verifyToken, updateBlogPost)
+  .delete(verifyToken, deleteBlogPost);
 
 module.exports = router;

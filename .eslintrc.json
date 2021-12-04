@@ -14,6 +14,8 @@
     "radix": "off",
     "eqeqeq": "off",
     "no-restricted-globals": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "no-use-before-define": "off",
+    "dot-notation": "off"
   }
 }

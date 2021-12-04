@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Burak",
+      "lastName": "Kısacık",
+      "email": "burak@gmail.com",
+      "age": "25"
+    },
+    {
+      "id": "2",
+      "firstName": "Büşra",
+      "lastName": "Karabulut",
+      "email": "büşra@gmail.com",
+      "age": "25"
+    },
+    {
+      "id": "3",
+      "firstName": "Sevda",
+      "lastName": "Aslan",
+      "email": "sevda@gmail.com",
+      "age": "25"
+    },
+    {
+      "id": "4",
+      "firstName": "Ziya",
+      "lastName": "Kısacık",
+      "email": "ziya@gmail.com",
+      "age": "25"
+    },
+    {
+      "id": "5",
+      "firstName": "Alperen",
+      "lastName": "Karayel",
+      "email": "alperen@gmail.com",
+      "age": "25"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Updated title with patch",
+      "body": "This is my first post"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "title": "My second post",
+      "body": "This is my second post"
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "title": "My first post",
+      "body": "This is my first post"
+    },
+    {
+      "id": "4",
+      "userId": "2",
+      "title": "My second post",
+      "body": "This is my second post"
+    },
+    {
+      "id": "5",
+      "userId": "3",
+      "title": "My first post",
+      "body": "This is my first post"
+    },
+    {
+      "id": "6",
+      "userId": "3",
+      "title": "My second post",
+      "body": "This is my second post"
+    },
+    {
+      "id": "7",
+      "userId": "4",
+      "title": "My first post",
+      "body": "This is my first post"
+    },
+    {
+      "id": "8",
+      "userId": "4",
+      "title": "My second post",
+      "body": "This is my second post"
+    },
+    {
+      "id": 445,
+      "userId": "1",
+      "title": "My Second Post",
+      "body": "This is my second post"
+    }
+  ]
+}
